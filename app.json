@@ -2,17 +2,43 @@
   "expo": {
     "name": "KleosFitCoachPro",
     "slug": "KleosFitCoachPro",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.fergest.kleosfitcoachpro",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
     "updates": {
       "enabled": false
     },
-    "android": {
-      "package": "com.fergest.kleosfitcoachpro"
-    },
+    "newArchEnabled": false,
     "extra": {
       "eas": {
         "projectId": "ebc9b51f-d90f-4f77-a1b4-3ac2d872919d"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
