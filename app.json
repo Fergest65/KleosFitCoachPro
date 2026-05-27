@@ -31,7 +31,7 @@
     "updates": {
       "enabled": false
     },
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "extra": {
       "eas": {
         "projectId": "ebc9b51f-d90f-4f77-a1b4-3ac2d872919d"
